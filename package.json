@@ -12,19 +12,27 @@
     "type": "git",
     "url": "git+https://github.com/geocine/phaser3-rollup-typescript.git"
   },
-  "author": "Aivan Monceller",
+  "author": "Matti J. Räty",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/geocine/phaser3-rollup-typescript/issues"
   },
   "homepage": "https://github.com/geocine/phaser3-rollup-typescript#readme",
   "devDependencies": {
-    "@types/node": "^17.0.31",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^22.0.0",
     "@rollup/plugin-replace": "^4.0.0",
+    "@types/file-saver": "^2.0.5",
+    "@types/node": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "file-saver": "^2.0.5",
     "phaser": "^3.55.2",
-    "typescript": "^4.6.4",
+    "typescript": "^4.9.3",
     "vite": "^2.9.8"
   }
 }
